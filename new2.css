@@ -1,0 +1,215 @@
+.back{
+  background-image:url('');
+background-size:contain;
+ background-repeat:no-repeat;
+ width:200vh;
+ height:100vh;
+ width:100%;
+    
+ 
+ background-size:cover;
+ background-image:transparent;
+ 
+}
+ 
+#back.setup{
+	 width:95%;
+}
+	
+
+
+.main{
+ width:100%;
+ margin-left:150px;
+ margin-right:100px;
+}
+
+.fir{
+ background-color:transparent;
+ height:100px;
+ display:flex;
+ margin-right:100px;
+	
+}
+.log{
+ display:block;
+	
+ padding-left:300px;
+ padding-top:30px;
+}
+.cal{
+	
+ display:block;
+ padding-left:150px;
+ padding-top:30px;
+ width:300px;
+	
+}
+
+.but{
+	
+	
+ color:white;
+ float:right;
+ padding-left:450px;
+ padding-top:30px;
+ padding-right:100px;
+ width:20%;
+	
+}
+.img{
+ float:left;
+}
+.vr{
+    background-color:orange;
+ color:white;
+ cursor:pointer;
+ width:100px;
+ border:none;
+ height:25px;
+}
+.nav{
+ background-color: #152238;
+ width:100%;
+ height:50px;
+	
+	
+ display:flex;
+ box-sizing:border-box;
+}
+
+a{
+ text-decoration:none;
+ color:white;
+ padding:0px 30px;
+ display:flex;
+ font-weight:bold;
+ transition:all 0.3s ease-in-out;
+	
+}
+.ul ul {
+ display:flex;
+ list-style:none;
+ padding-left:0;
+ width:100%;
+}
+a:hover{
+ color:orange;
+}
+.war{
+ float:right;
+ display:flex;
+ padding-top:10px;
+	
+ padding-right:150px;
+
+ padding-left:650px;
+
+}
+.bar {
+ background-color:black;
+ color:white;
+ border:1px white solid;
+ border-radius:20px;
+ font-weight:bold;
+ padding:5px;
+
+}
+.nav ul li:nth-child(1) a{
+ color:green;
+}
+.nav ul li:last-child a{
+color:green
+}
+.nav ul li a:hover{
+ color:orange;
+}
+.sec1{
+ float:left;
+ padding:80px;
+ width:50%;
+ color:white;
+ font-weight:bold;
+ 
+ 
+  bottom: 80px;
+  right: 20px;
+  left:100px;
+  background-color: rgba(195,195,197,0.6);;
+  color: white;
+  padding-left: 50px;
+  padding-right: 100px;
+  margin-top:80px;
+  margin-left:20px;
+  margin-right:8px;
+  margin-bottom:100px;
+ 
+}
+
+.but1{
+ color:white;
+ background-color:orange;
+ border-radius:20px;
+ border:none;
+ margin-top:30px;
+ width:150px;
+ height:50px;
+ cursor:pointer;
+	
+}
+.but2{
+ color:black;
+ background-color:white;
+ border-radius:20px;
+ border:none;
+ margin-top:20px;
+ width:150px;
+ height:50px;
+ cursor:pointer;
+	
+}
+.setup{
+ float:left;
+ width:100%;
+ display:flex;
+ padding-top:10px;
+ height:380px;
+	
+}
+.sec2{
+ color:white;
+ background-color:#152238;
+ padding:50px;
+ height:120%;
+	
+ width:25%;
+ animation-name: mymove;
+  animation-duration: 5s;
+}
+.sec3{
+ color:white;
+ background-color:orange;
+ padding:50px;
+ height:120%;
+	
+ width:25%;
+}
+.sec4{
+ color:white;
+ background-color:#152238;
+ padding:50px;
+ height:120%;
+	
+ width:25%;
+}
+.sec5{
+ color:white;
+ background-color:orange;
+ padding:50px;
+ height:120%;
+	
+ width:25%;
+}
+p{
+font-size:120%;
+}

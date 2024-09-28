@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Online - GLOBEL Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="order.css">
+</head>
+<body>
+	<header>
+		<div class="header-wrapper">
+			<h1>GLOBEL Restaurant</h1>
+			<nav>
+				<ul>
+					<li><a href="homepage.html"><b>HOME</b></a><li>
+<li><a href="about2 page.html"><b>ABOUT</b></a><li>
+<li><a href="the menu2.html"><b>MENU</b></a><li>
+<li><a href="aaaa.html"><b>CONTACT</b></a><li>
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<h2>Order Online</h2>
+		<p>Choose your items from our menu and we'll have them ready for pickup or delivery.</p><br>
+		<form>
+			<fieldset><br>
+				<legend>Personal Information</legend>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name" required><br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email" required><br>
+				<label for="phone">Phone:</label><br>
+				<input type="tel" id="phone" name="phone" required>
+			</fieldset>
+			<fieldset><br>
+				<legend>Order Information</legend>
+				<label for="items">Items:</label>
+				<select id="items" name="items">
+					<option value="Margherita">Margherita</option>
+					<option value="Formaggio">Formaggio</option>
+					<option value="Chicken Pizza">Chicken Pizza</option>
+					<option value="Meat Town pizza">Meat Town pizza</option>
+					<option value="Chicken fried rice">Chicken fried rice</option>
+					<option value="Chinese-style beef fried rice">Chinese-style beef fried rice</option>
+					<option value="Eassy fride rice">Eassy fride rice</option>
+					<option value="Quick and Easy Pineapple Fried Rice">Quick and Easy Pineapple Fried Rice</option>
+					<option value="Fudge Ice-Cream Dessert">Fudge Ice-Cream Dessert</option>
+					<option value="Pink Lemonade Pops">Pink Lemonade Pops</option>
+					<option value="Classic chocolate mousse">Classic chocolate mousse</option>
+					<option value="BritCo ">BritCo </option>
+					<option value="Portobello mushroom burger.">Portobello mushroom burger.</option>
+					<option value="Turkey burger">Turkey burger</option>
+					<option value="Cheeseburger">Cheeseburger</option>
+					<option value="Veggie burger">Veggie burger</option>
+					
+				</select><br><br>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" value="1" min="1" required><br><br>
+				<label for="notes">Special Notes about your order:</label><br><br>
+				<textarea id="notes" name="notes"></textarea>
+			</fieldset>
+			&nbsp;&nbsp;&nbsp;
+			<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit Order" class="btn"></b>
+		</form>
+	</main>
+</body>
+</html>
